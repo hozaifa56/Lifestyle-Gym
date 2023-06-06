@@ -51,3 +51,8 @@ body {
     width: 15%;
   
   } */
+.col-md-3{
+    text-align: center;
+    color: white;
+    background-color: black;
+}

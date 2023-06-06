@@ -4,21 +4,7 @@ body {
   background-attachment: fixed;
   background-size: 100% 100%;
 }
-/* nav {
-  background-color: #333;
-  border-radius: 10px;
-}
 
-nav ul {
-  list-style-type: none;
-  margin: 1%;
-  padding: 0.5%;
-  display: flex;
-  font-size: x-large;
-  text-align: center;
-}
-nav li {
-  width: 33.3%;} */
 footer {
   color: aqua;
   background-color: black;
