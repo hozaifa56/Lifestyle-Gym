@@ -16,8 +16,8 @@ function auth() {
     var password = document.getElementById("password").value;
 
     if (email === "hozaifa" && password === "0000") {
-        window.location.replace("loggedin.html");
-        // alert("You Are a ADMIN");
+       window.location.assign("loggedin.html")
+       alert("logged in");
 
     } else {
         alert("Invalid information");
@@ -25,6 +25,7 @@ function auth() {
     }
 
 }
+
      </script><title>Lifestyle Gym</title>
 </head>
 <body>
@@ -54,16 +55,16 @@ function auth() {
         <img src="img/part1.png" width="100%" height="50%">
         <form id="form" action="" method="GET">
             <div class="form-group">
-              <label for="exampleInputEmail1">Username</label>
-              <input type="text"  id="email" class="form-control"  aria-describedby="emailHelp" >
-              
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email"  id="email" class="form-control"  aria-describedby="emailHelp" >
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
             <div class="form-group">
               <label for="exampleInputPassword1">Password</label>
               <input type="password" id="password" class="form-control" >
-            </div><br>
-             <center><button type="submit" class="btn btn-outline-success btn-lg shadow" onClick="auth()">Submit</button></center><br>
-            <center><a href="#">forgot password?</a></center>
+            </div>
+             <button type="submit" class="btn btn-outline-success btn-lg shadow" onClick="auth()">Submit</button>
+         
           </form>
     </div>
     <div class="part2">

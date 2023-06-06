@@ -53,3 +53,12 @@ button{
 ol{
   color: darkred;
 }
+.logbg{
+  background-image: url("img/loggedin_bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.loggedin{
+  
+}
