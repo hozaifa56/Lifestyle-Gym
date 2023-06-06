@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <script>
+        
+            var w = document.getElementById("weight").value;
+            var h = document.getElementById("height").value;
+        function calculate(w,h){
+
+            window.alert("Your BMI is:"+w);
+        }
+
+    </script>
     <title>Lifestyle Gym</title>
 </head>
 <body class="logbg">
@@ -30,6 +40,13 @@
         </div>
       </nav>
     <div class="loggedin">
+        <form action="" method="get">
+            <label for="weight">Your weight in kg:</label><br>
+            <input type="float" id="weight" name="weight"><br>
+            <label for="height">Your height in metre:</label><br>
+            <input type="float" id="height" name="height"><br><br>
+            <button type="submit" class="calculate" onClick="calculate()">Calculate BMI</button>
+        </form>
 
     </div>
     <footer>
