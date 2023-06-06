@@ -1,47 +1,53 @@
-
 body {
     background-image: url("img/equipments_bg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
   }
-  .page{ 
+  
+  .page {
     opacity: 0.5;
     background-color: white;
     width: 100vx;
     height: 65vh;
     border-radius: 10px;
     padding: 1px;
-    display:flex;
+    display: flex;
   }
+  
+  /* 
   nav {
     background-color: #333;
     border-radius: 10px;
-  }
+  } */
   
-  nav ul {
+  /* nav ul {
     list-style-type: none;
     margin: 1%;
     padding: 0.5%;
     display: flex;
     font-size: x-large;
     text-align: center;
-  }
-  nav li {
+  } */
+  
+  /* nav li {
     width: 33.3%;
-  }
+  } */
+  
   footer {
     color: aqua;
     background-color: black;
     padding: 1%;
     border-radius: 5px;
   }
-  ul{
+  
+  /* ul {
     list-style-type: none;
     display: block;
   }
-img{
+  
+  img {
     height: 15%;
     width: 15%;
-
-}
+  
+  } */
